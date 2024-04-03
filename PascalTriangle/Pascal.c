@@ -13,6 +13,8 @@ void pascal_triangle(int rows) {
 	}
 
 }
+
+// function defination
 int binomial(int n, int k) {
 	return factorial(n) / factorial(k) / factorial(n - k);
 }
