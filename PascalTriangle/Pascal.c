@@ -12,6 +12,8 @@ void pascal_triangle(int rows) {
 		printf("\n");
 	}
 
+	resetColors();
+
 }
 int binomial(int n, int k) {
 	return factorial(n) / factorial(k) / factorial(n - k);
